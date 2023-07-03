@@ -1,9 +1,14 @@
 <?php
+
+/*
+    MerchentID : 36 کاراکتر دلخواه - 
+    پیش فرض همین مقدار برای مرچنت کافیست
+*/
 $curl = curl_init();
 $data = array(
     'MerchantID' => 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX',
     'Amount' => 2000,
-    'CallbackURL' => 'http://localhost/livour/wp-content/themes/livour/process/verify.php',
+    'CallbackURL' => 'http://example.com/verify.php', // change exmaple.com to your site domain and must be redirect to verify.php
     'Description' => 'خرید تست'
 );
 $jsonData = json_encode($data);
