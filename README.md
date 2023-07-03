@@ -26,7 +26,7 @@ when request.php be completed, user will redirect to your domain verify.php file
 
 ## What is verify.php
 
-request.php redirected user with Authority and Status=OK in URL and verify.php catch these from url ($\_GET variable) and doing verify instructions
+request.php redirected user to this file with Authority and Status=OK in URL Then verify.php catch these from url ($\_GET variable) and doing verify instructions
 
 ## More detail
 
