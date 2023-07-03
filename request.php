@@ -1,6 +1,8 @@
 <?php
 
 /*
+    MerhcantID : random string with 36 characters
+    Default : XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  (  its ok for test  )
     MerchentID : 36 کاراکتر دلخواه - 
     پیش فرض همین مقدار برای مرچنت کافیست
 */
